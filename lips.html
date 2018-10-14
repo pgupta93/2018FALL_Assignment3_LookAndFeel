@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, shrink-to-fit=no">
+    <title>My Website</title>
+    <link href='https://fonts.googleapis.com/css?family=Hind+Vadodara' rel='stylesheet'>
+    <link rel="stylesheet" href="css/my_site.css"/>
+</head>
+<body>
+<div class="header">
+    <div class="navigation">
+        <ul class="nav_ul">
+            <li class="nav_li_home">
+                <a href="index.html" class="home">
+                    <i class="fas fa-home fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav_li">
+                <a href="face.html">Face</a>
+            </li>
+            <li class="nav_li">
+                <a href="eyes.html">Eyes</a>
+            </li>
+            <li class="nav_li nav_active">
+                <a href="#">Lips</a>
+            </li>
+            <li class="nav_li">
+                <a href="nails.html">Nails</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="site_header">
+        <span class="heading text_center">
+            Makeup
+        </span>
+        <span class="sub_heading text_center">
+            Where beauty is appreciated.
+        </span>
+    </div>
+
+</div>
+
+<div class="body_content">
+    <div class="home_slider">
+        <div class="my_slide" data-info="#div_cat_lipliner">
+            <img src="imgs/lips_slide_lipliner.png" class="slider_image">
+            <span class="slider_caption">
+                Lip Liner
+            </span>
+        </div>
+
+        <div class="my_slide" data-info="#div_cat_lipstick">
+            <img src="imgs/lips_slide_lipstick.jpg" class="slider_image">
+            <span class="slider_caption">
+                Lipstick
+            </span>
+        </div>
+
+        <div class="my_slide" data-info="#div_cat_lipgloss">
+            <img src="imgs/lips_slide_lipgloss.jpg" class="slider_image">
+            <span class="slider_caption">
+                Lip Gloss
+            </span>
+        </div>
+
+
+        <!-- Controls -->
+        <span class="slide_btn_prev" onclick="show_previous_slide()">
+            &#10094;
+        </span>
+        <span class="slide_btn_next" onclick="show_next_slide()">
+            &#10095;
+        </span>
+    </div>
+
+    <div class="category_contents">
+        <div class="category_container" id="div_cat_lipliner">
+            <span class="c_heading">
+                Lip Liner
+            </span>
+            <div class="container">
+                <ul class="c_ul_ques">
+                    <li class="c_li_ques">
+                        <div class="c_div_question">
+                            <span class="c_question">What is Lip Liner?</span>
+                            <span class="c_answer">
+                                Lip liner, also known as a lip pencil, is a cosmetic product. It is intended to fill in uneven areas on the outer edges of the lips before applying lipstick to give a smoother shape. It is also used to outline the lips, keeping lipstick inside the lip area and preventing it from "bleeding", creating a bigger contrast and making the lips stand out more.
+                                <br/><br/>
+                                Alternatively, lip liner can be used to fill in the entire lip before the application of lipstick, and in some cases is worn as a lipstick on its own. The product is usually sold in a retractable tube or pencil form which can be sharpened. Lip liner is usually available in the same range of colors as lipsticks: e.g., reds, pinks, browns, plums, etc. Lip liner also comes in invisible, for giving the illusion of smooth lips without adding or affecting color
+                            </span>
+                        </div>
+                    </li>
+
+                    <li class="c_li_ques">
+                        <div class="c_div_question">
+                            <span class="c_question">How to use Lip Liner?</span>
+                            <span class="c_answer">
+                                <strong>If you have thin or uneven lips</strong> Outlining your lips with a pencil that's one shade darker than your natural lip color will make them look instantly fuller and defined. Avoid contouring outside the lines—"it only works on camera," says makeup artist Nick Barose—but you can build up your Cupid's bow ever so slightly and tap highlighter over for a plumping effect.
+                                <br/><br/>
+                                <strong>If your lipstick has a shiny finish or moisture-rich formula</strong> Moisturizing, glossy lipsticks tend to bleed more than their matte counterparts. To keep the color from migrating, makeup artist Troy Surratt recommends using a natural, rose-toned pencil to line your lips, then dabbing concealer all around your mouth and setting it with loose finishing powder before applying lipstick.
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container"></div>
+
+            <div class="container">
+                <ul class="c_ul_products">
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_lipliner_1.jpg" class="c_prod_img" alt="Huda Beauty Lip Contour">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/huda-beauty-lip-contour.html?ptype=product&productId=208064&skuId=208064&categoryId=251">
+                                Huda Beauty Lip Contour
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_lipliner_2.jpg" class="c_prod_img" alt="Coloressence Lip Liner Pencil">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/coloressence-lip-liner-pencil.html?ptype=product&productId=18638&skuId=18638&categoryId=251">
+                                Coloressence Lip Liner Pencil
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_lipliner_3.jpg" class="c_prod_img" alt="Kiko Milano Dark Treasure Lip Liner">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/kiko-milano-dark-treasure-lip-liner/p/348723?ptype=product&productId=348723&skuId=348723&categoryId=251">
+                                Kiko Milano Dark Treasure Lip Liner
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_lipliner_4.jpg" class="c_prod_img" alt="NYX Professional Makeup Slim Lip Pencil">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/nyx-professional-makeup-slim-lip-pencil/p/2408?ptype=product&productId=2408&skuId=2408&categoryId=251">
+                                NYX Professional Makeup Slim Lip Pencil
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="category_container" id="div_cat_lipstick">
+            <span class="c_heading">
+                Lipstick
+            </span>
+            <div class="container">
+                <ul class="c_ul_ques">
+                    <li class="c_li_ques">
+                        <div class="c_div_question">
+                            <span class="c_question">What is Lipstick?</span>
+                            <span class="c_answer">
+                                <i>"Lipstick is the most valuable weapon in a woman's make-up kit. It has the power to transform the appearance and mood of the person wearing it, and, at the same time, arouses the admiration of everybody else"</i> <strong>- Monica Bellucci</strong>
+                                <br/><br/>
+                                Lipstick is a cosmetic product containing pigments, oils, waxes, and emollients that apply color, texture, and protection to the lips. Many colors and types of Lip Care Products For Sales exist. Some lipsticks are also lip balms, to add color and hydration.
+                                <br/><br/>
+                                Carrying lipstick is not only popular because of their ability to make us more pretty and change the flow of our entire face. Lipsticks are also very useful for their medicinal benefits that can range from simple sun protection to the prevention of much more serious illnesses.
+                                <br/>
+                                You can choose lipstick that is perfectly matching with your lips or lipstick that can change look of your lips.
+                            </span>
+                        </div>
+                    </li>
+
+                    <li class="c_li_ques">
+                        <div class="c_div_question">
+                            <span class="c_question">How to use Lipstick?</span>
+                            <span class="c_answer">
+                                <strong>Use a lip liner:</strong> Choose a color that matches your lips, not your lipstick. Before drawing a line with the lip pencil, begin by dotting it at various points along the outline of your lips. Then, drawing very lightly, use the liner to connect the dots.
+                                <br/><br/>
+                                <strong>Apply lipstick:</strong> Pick up the lipstick and apply the color, starting at the center of the upper lip and moving outward toward one corner. Bring the lipstick back to the center and run it outward toward the other corner. Repeat with the lower lip. To fill in any missing color, dab the lipstick with your pinky, then dot the color onto your lips with the finger.
+                                <br/><br/>
+                                <strong>Blot your lips:</strong> To blot, which will make lipstick last longer and keep it off your teeth, take a facial tissue and fold it in half. Hold it in two hands, with the fold facing you, then bring it between your lips and press your lips together gently. Release. To make lipstick last even longer, dust a little powder on the tissue before blotting.
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container"></div>
+
+            <div class="container">
+                <ul class="c_ul_products">
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_lipstick_1.jpg" class="c_prod_img" alt="Huda Beauty Liquid Matte Minis - Power Pinks">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/huda-beauty-liquid-matte-minis-power-pinks.html?ptype=product&productId=337000&skuId=337000&categoryId=249">
+                                Huda Beauty Liquid Matte Minis - Power Pinks
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_lipstick_2.jpg" class="c_prod_img" alt="Nykaa Matte To Last ! Liquid Lipstick">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/nykaa-matte-to-last-liquid-lipstick.html?ptype=product&productId=303851&skuId=303851&categoryId=249">
+                                Nykaa Matte To Last ! Liquid Lipstick
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_lipstick_3.jpg" class="c_prod_img" alt="Nykaa So Matte Lipstick Collection">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/nykaa-so-matte-lipstick-collection.html?ptype=product&productId=71406&skuId=71406&categoryId=249">
+                                Nykaa So Matte Lipstick Collection
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_lipstick_4.jpg" class="c_prod_img" alt="Kiko Milano Smart Fusion Lipstick">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/kiko-milano-smart-fusion-lipstick.html?ptype=product&productId=300122&skuId=300122&categoryId=249">
+                                Kiko Milano Smart Fusion Lipstick
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="category_container" id="div_cat_lipgloss">
+            <span class="c_heading">
+                Lip Gloss
+            </span>
+            <div class="container">
+                <ul class="c_ul_ques">
+                    <li class="c_li_ques">
+                        <div class="c_div_question">
+                            <span class="c_question">What is Lip Gloss?</span>
+                            <span class="c_answer">
+                                Lip gloss is a product used primarily to give lips a glossy lustre, and sometimes to add a subtle color. It is distributed as a liquid or a soft solid or lipstick, which generally is a solid, cream like substance that gives off a more pigmented color.
+                            </span>
+                        </div>
+                    </li>
+
+                    <li class="c_li_ques">
+                        <div class="c_div_question">
+                            <span class="c_question">How to use Lip Gloss?</span>
+                            <span class="c_answer">
+                                After applying lipstick, start applying the lip gloss from the center of the lips and drag the sponge applicator along the length of the lips. Avoid applying the gloss above the natural lip line. You can blot the excess lip gloss on a tissue paper. This will prevent the color from bleeding.
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container"></div>
+
+            <div class="container">
+                <ul class="c_ul_products">
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_lipgloss_1.jpg" class="c_prod_img" alt="M.A.C Lipglass - Ruby Woo">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/m-a-c-lipglass-ruby-woo-relaunch.html?ptype=product&productId=178641&skuId=178671&categoryId=250">
+                                M.A.C Lipglass - Ruby Woo
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_lipgloss_2.jpg" class="c_prod_img" alt="Huda Beauty Lip Strobe">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/huda-beauty-lip-strobe.html?ptype=product&productId=208077&skuId=208077&categoryId=250">
+                                Huda Beauty Lip Strobe
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_lipgloss_3.jpg" class="c_prod_img" alt="Colorbar Kiss Proof Lip Stain">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/colorbar-kiss-proof-lip-stain.html?ptype=product&productId=26114&skuId=26114&categoryId=250">
+                                Colorbar Kiss Proof Lip Stain
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_lipgloss_4.jpg" class="c_prod_img" alt="Lakme Absolute Plump And Shine Lip Gloss">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/lakme-absolute-plump-and-shine-lip-gloss/p/1016?ptype=product&productId=1016&skuId=1016&categoryId=250">
+                                Lakme Absolute Plump And Shine Lip Gloss
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <span class="footer_cr">
+        Copyright@Nammi
+    </span>
+</div>
+
+<script type="text/javascript" src="js/jquery3.3.1.min.js"></script>
+<script type="text/javascript" src="js/font_awesome_5.0.13.js"></script>
+<script type="text/javascript" src="js/slideshow.js"></script>
+</body>
+</html>
