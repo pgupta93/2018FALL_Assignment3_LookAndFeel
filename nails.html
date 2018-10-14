@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, shrink-to-fit=no">
+    <title>My Website</title>
+    <link href='https://fonts.googleapis.com/css?family=Hind+Vadodara' rel='stylesheet'>
+    <link rel="stylesheet" href="css/my_site.css"/>
+</head>
+<body>
+<div class="header">
+    <div class="navigation">
+        <ul class="nav_ul">
+            <li class="nav_li_home">
+                <a href="index.html" class="home">
+                    <i class="fas fa-home fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav_li">
+                <a href="face.html">Face</a>
+            </li>
+            <li class="nav_li">
+                <a href="eyes.html">Eyes</a>
+            </li>
+            <li class="nav_li">
+                <a href="lips.html">Lips</a>
+            </li>
+            <li class="nav_li nav_active">
+                <a href="#">Nails</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="site_header">
+        <span class="heading text_center">
+            Makeup
+        </span>
+        <span class="sub_heading text_center">
+            Where beauty is appreciated.
+        </span>
+    </div>
+
+</div>
+
+<div class="body_content">
+    <div class="home_slider">
+        <div class="my_slide" data-info="#div_cat_nail_polish">
+            <img src="imgs/nails_slide_nailpolish.jpg" class="slider_image">
+            <span class="slider_caption">
+                Nail Polish
+            </span>
+        </div>
+
+        <div class="my_slide" data-info="#div_cat_nail_polish_remover">
+            <img src="imgs/nails_slide_nailpolish_remover.png" class="slider_image">
+            <span class="slider_caption">
+                Nail Polish Remover
+            </span>
+        </div>
+
+        <!-- Controls -->
+        <span class="slide_btn_prev" onclick="show_previous_slide()">
+            &#10094;
+        </span>
+        <span class="slide_btn_next" onclick="show_next_slide()">
+            &#10095;
+        </span>
+    </div>
+
+    <div class="category_contents">
+        <div class="category_container" id="div_cat_nail_polish">
+            <span class="c_heading">
+                Nail Polish
+            </span>
+            <div class="container">
+                <ul class="c_ul_ques">
+                    <li class="c_li_ques">
+                        <div class="c_div_question">
+                            <span class="c_question">What is Nail Polish?</span>
+                            <span class="c_answer">
+                                Nail polish (also known as nail varnish) is a lacquer that can be applied to the human fingernail or toenails to decorate and protect the nail plates. The formulation has been revised repeatedly to enhance its decorative effects, and to suppress cracking or flaking. Nail polish consists of a mix of an organic polymer and several other components, depending on the brand. People use this liquid to create both simple and complicated designs with bright colors, charms, or other.
+                            </span>
+                        </div>
+                    </li>
+
+                    <li class="c_li_ques">
+                        <div class="c_div_question">
+                            <span class="c_question">How to use Nail Polish?</span>
+                            <span class="c_answer">
+                                Place the nail polish brush close to the cuticle area and push it up to get as close to the cuticle line as you can. Ideally leaving a gap which is only the width of a hair. And then drag the brush towards the free edge. Spread the base coat to the sides.
+                                <br/>
+                                Allow the polish to dry and then apply the second coat in the same way but with more polish and less pressure in the brush, so that the brush won’t dig into the first coat.
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container"></div>
+
+            <div class="container">
+                <ul class="c_ul_products">
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_nail_polish_1.jpg" class="c_prod_img" alt="O3+ Plunge Nail Lacquer">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/o3-plunge-nail-lacquer.html?ptype=product&productId=347713&skuId=347713&categoryId=255">
+                                O3+ Plunge Nail Lacquer
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_nail_polish_2.jpg" class="c_prod_img" alt="Maybelline New York Color Show Nail Lacquer">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/maybelline-color-show-nail-lacquer/p/7919?ptype=product&productId=7919&skuId=7919&categoryId=255">
+                                Maybelline New York Color Show Nail Lacquer
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_nail_polish_3.jpg" class="c_prod_img" alt="Lakme True Wear Nail Color">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/lakme-true-wear-nail-color/p/1139?ptype=product&productId=1139&skuId=1139&categoryId=255">
+                                Lakme True Wear Nail Color
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_nail_polish_4.jpg" class="c_prod_img" alt="Nykaa Salon Shine Gel Nail Lacquer">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/nykaa-salon-shine-gel-nail-lacquer.html?ptype=product&productId=199810&skuId=199810&categoryId=255">
+                                Nykaa Salon Shine Gel Nail Lacquer
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="category_container" id="div_cat_nail_polish_remover">
+            <span class="c_heading">
+                Nail Polish Remover
+            </span>
+            <div class="container">
+                <ul class="c_ul_ques">
+                    <li class="c_li_ques">
+                        <div class="c_div_question">
+                            <span class="c_question">What is Nail Polish Remover?</span>
+                            <span class="c_answer">
+                                It is the chemical used to remove nail polish.
+                                <br/><br/>
+                                Generally nail polish remover is made of acetone, which is a solvent that dissolves the film of the nail polish. Because of acetone's strength as a solvent, it shouldn't be used on your fake nails. The solvent in the polish remover will weaken your extensions and cause them to separate from your natural nail. One of the reasons non-acetone nail polish removers were created was to be used on nail extensions.
+                                <br/><br/>
+                                Non-acetone polish removers contain ethyl acetate or methyl ethyl keytone as their active ingredient and are less effective for removing nail polish than acetone (slower removal).
+                            </span>
+                        </div>
+                    </li>
+
+                    <li class="c_li_ques">
+                        <div class="c_div_question">
+                            <span class="c_question">How to use Nail Polish Remover?</span>
+                            <span class="c_answer">
+                                Open the lid of the nail polish remover and firmly place the cotton round over the opening &amp; saturate the cotton round with nail polish remover.
+                                <br/><br/>
+                                Place the saturated cotton round over your fingernail and apply pressure. Rub the cotton round back and forth, up and down across the nail.
+                                <br/><br/>
+                                Use as many fresh remover-soaked cotton pads as you need. Repeat the procedure with each fingernail.
+                                <br/><br/>
+                                Rub a fresh cotton round with nail polish remover over each nail to remove any excess residue or polish that might have been left behind.
+                                <br/><br/>
+                                Wash your hands thoroughly with soap and water &amp; pat your hands dry.
+
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container"></div>
+
+            <div class="container">
+                <ul class="c_ul_products">
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_nail_polish_remover_1.jpg" class="c_prod_img" alt="O.P.I Acetone-Free Polish Remover">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/o-p-i-acetone-free-polish-remover.html?ptype=product&productId=278325&skuId=278325&categoryId=260">
+                                O.P.I Acetone-Free Polish Remover
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_nail_polish_remover_2.jpg" class="c_prod_img" alt="Miss Claire Nail Polish Remover - 03">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/miss-claire-nail-polish-remover-03.html?ptype=product&productId=272656&skuId=272656&categoryId=260">
+                                Miss Claire Nail Polish Remover - 03
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_nail_polish_remover_3.jpg" class="c_prod_img" alt="Lakme Nail Colour Remover with Vitamin E">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/lakme-nail-colour-remover-with-vitamin-e/p/1157?ptype=product&productId=1157&skuId=1157&categoryId=260">
+                                Lakme Nail Colour Remover with Vitamin E
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_nail_polish_remover_4.jpg" class="c_prod_img" alt="Maybelline New York Color Show Nail Color Remover">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/maybelline-color-show-nail-color-remover.html?ptype=product&productId=36231&skuId=36231&categoryId=260">
+                                Maybelline New York Color Show Nail Color Remover
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="footer">
+    <span class="footer_cr">
+        Copyright@Nammi
+    </span>
+</div>
+
+<script type="text/javascript" src="js/jquery3.3.1.min.js"></script>
+<script type="text/javascript" src="js/font_awesome_5.0.13.js"></script>
+<script type="text/javascript" src="js/slideshow.js"></script>
+</body>
+</html>
