@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, shrink-to-fit=no">
+    <title>My Website</title>
+    <link href='https://fonts.googleapis.com/css?family=Hind+Vadodara' rel='stylesheet'>
+    <link rel="stylesheet" href="css/my_site.css"/>
+</head>
+<body>
+<div class="header">
+    <div class="navigation">
+        <ul class="nav_ul">
+            <li class="nav_li_home">
+                <a href="index.html" class="home">
+                    <i class="fas fa-home fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav_li">
+                <a href="face.html">Face</a>
+            </li>
+            <li class="nav_li nav_active">
+                <a href="eyes.html">Eyes</a>
+            </li>
+            <li class="nav_li">
+                <a href="lips.html">Lips</a>
+            </li>
+            <li class="nav_li">
+                <a href="nails.html">Nails</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="site_header">
+        <span class="heading text_center">
+            Makeup
+        </span>
+        <span class="sub_heading text_center">
+            Where beauty is appreciated.
+        </span>
+    </div>
+
+</div>
+
+<div class="body_content">
+    <div class="home_slider">
+        <div class="my_slide" data-info="#div_cat_eyeliner">
+            <img src="imgs/eyes_slide_eyeliner.jpg" class="slider_image">
+            <span class="slider_caption">
+                Eyeliner
+            </span>
+        </div>
+
+        <div class="my_slide" data-info="#div_cat_mascara">
+            <img src="imgs/eyes_slide_mascara.jpg" class="slider_image">
+            <span class="slider_caption">
+                Mascara
+            </span>
+        </div>
+
+        <div class="my_slide" data-info="#div_cat_eyeshadow">
+            <img src="imgs/eyes_slide_eyeshadow.jpg" class="slider_image">
+            <span class="slider_caption">
+                Eye Shadow
+            </span>
+        </div>
+
+
+        <!-- Controls -->
+        <span class="slide_btn_prev" onclick="show_previous_slide()">
+            &#10094;
+        </span>
+        <span class="slide_btn_next" onclick="show_next_slide()">
+            &#10095;
+        </span>
+    </div>
+
+    <div class="category_contents">
+        <div class="category_container" id="div_cat_eyeliner">
+            <span class="c_heading">
+                Eyeliner
+            </span>
+            <div class="container">
+                <ul class="c_ul_ques">
+                    <li class="c_li_ques">
+                        <div class="c_div_question">
+                            <span class="c_question">What is Eyeliner?</span>
+                            <span class="c_answer">
+                                Eyeliners are products that apply color to the area around the eyes to accent and highlight appearance of the eyes. Eyeliners are used to emphasize the eyelids and/or to change the perceived shape of the eyes. They contain special ingredients that apply color where it is needed in a precise and controlled manner.
+                            </span>
+                        </div>
+                    </li>
+
+                    <li class="c_li_ques">
+                        <div class="c_div_question">
+                            <span class="c_question">How to use Eyeliner?</span>
+                            <span class="c_answer">
+                                Sharpen eye pencil.
+                                <br/>
+                                Make a dotted line from the outer corner inward.
+                                <br/>
+                                Connect the dots with eye shadow.
+                                <br/>
+                                Finish with the bottom lash.
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container"></div>
+
+            <div class="container">
+                <ul class="c_ul_products">
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_eyeliner_1.jpg" class="c_prod_img" alt="Revolution Pro Supreme Pigment Gel Eyeliner">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/revolution-pro-supreme-pigment-gel-eyeliner.html?ptype=product&productId=342665&skuId=342665&categoryId=240">
+                                Revolution Pro Supreme Pigment Gel Eyeliner
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_eyeliner_2.jpg" class="c_prod_img" alt="Bobbi Brown Long-Wear Liquid Liner">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/bobbi-brown-long-wear-liquid-liner.html?ptype=product&productId=102273&skuId=102273&categoryId=240">
+                                Bobbi Brown Long-Wear Liquid Liner
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_eyeliner_3.jpg" class="c_prod_img" alt="Maybelline New York Eye Studio Lasting Drama Gel Eyeliner - Black">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/maybelline-eye-studio-lasting-drama-gel-eyeliner-black/p/8997?ptype=product&productId=8997&skuId=8997&categoryId=240">
+                                Maybelline New York Eye Studio Lasting Drama Gel Eyeliner - Black
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_eyeliner_4.jpg" class="c_prod_img" alt="Faces Eye Pencil">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/faces-eye-pencil.html?ptype=product&productId=12217&skuId=12217&categoryId=240">
+                                Faces Eye Pencil
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="category_container" id="div_cat_mascara">
+            <span class="c_heading">
+                Mascara
+            </span>
+            <div class="container">
+                <ul class="c_ul_ques">
+                    <li class="c_li_ques">
+                        <div class="c_div_question">
+                            <span class="c_question">What is Mascara?</span>
+                            <span class="c_answer">
+                                Mascara is a cosmetic commonly used to enhance the eyelashes. It may darken, thicken, lengthen, and/or define the eyelashes.
+                                <br/><br/>
+                                Normally in one of three forms—liquid, cake, or cream—the modern mascara product has various formulas; however, most contain the same basic components of pigments, oils, waxes, and preservatives.
+                            </span>
+                        </div>
+                    </li>
+
+                    <li class="c_li_ques">
+                        <div class="c_div_question">
+                            <span class="c_question">How to use Mascara?</span>
+                            <span class="c_answer">
+                                Curl your lashes. Remove the wand from the mascara tube by twisting back and forth instead of pumping it up and down. Wipe off excess mascara on a tissue or on the lip of the tube
+                                <br/>
+                                Look up to lift your lashes. Place the wand against the base of your lashes and wiggle it back and forth a little
+                                <br/>
+                                Pull the wand out toward the tips of your lashes with a zig-zag motion, or another little wiggle.
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container"></div>
+
+            <div class="container">
+                <ul class="c_ul_products">
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_mascara_1.jpg" class="c_prod_img" alt="Faces Magneteyes Dramatic Volumizing Mascara Black">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/faces-magneteyes-dramatic-volumizing-mascara-black.html?ptype=product&productId=125335&skuId=125335&categoryId=241">
+                                Faces Magneteyes Dramatic Volumizing Mascara Black
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_mascara_2.jpg" class="c_prod_img" alt="Maybelline New York Lash Sensational Mascara">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/maybelline-new-york-lash-sensational-mascara.html?ptype=product&productId=73011&skuId=73011&categoryId=241">
+                                Maybelline New York Lash Sensational Mascara
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_mascara_3.jpg" class="c_prod_img" alt="NYX Professional Makeup Worth The Hype Volumizing Mascara">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/nyx-professional-makeup-worth-the-hype-volumizing-mascara.html?ptype=product&productId=337359&skuId=337359&categoryId=241">
+                                NYX Professional Makeup Worth The Hype Volumizing Mascara
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_mascara_4.jpg" class="c_prod_img" alt="Maybelline New York The Colossal Volum Express Mascara">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/maybelline-the-colossal-volum-express-mascara/p/806?ptype=product&productId=806&skuId=806&categoryId=241">
+                                Maybelline New York The Colossal Volum Express Mascara
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="category_container" id="div_cat_eyeshadow">
+            <span class="c_heading">
+                Eye Shadow
+            </span>
+            <div class="container">
+                <ul class="c_ul_ques">
+                    <li class="c_li_ques">
+                        <div class="c_div_question">
+                            <span class="c_question">What is Eye Shadow?</span>
+                            <span class="c_answer">
+                                Eye shadow is a cosmetic that is applied on the eyelids and under the eyebrows. It is commonly used to make the wearer's eyes stand out or look more attractive.
+                                <br/><br/>
+                                Eye shadow can add depth and dimension to one's eyes, complement the eye color, make one's eyes appear larger, or simply draw attention to the eyes. Eye shadow comes in many different colors and textures. It is usually made from a powder and mica, but can also be found in liquid, pencil, cream or mousse form.
+                            </span>
+                        </div>
+                    </li>
+
+                    <li class="c_li_ques">
+                        <div class="c_div_question">
+                            <span class="c_question">How to use Eye Shadow?</span>
+                            <span class="c_answer">
+                                Always start with an eye primer. Eye primer helps create a smooth surface for the eye makeup. Once the primer has dried, you can apply an eyeshadow base that helps make the eyeshadow stick to the skin better.
+                                <br/><br/>
+                                Using the contour shade, apply from the outer corner while blending into the crease on the outer half of the eye. Please make sure that you don't blend too high because the mid-tone shade should always be higher than the contour shade.
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container"></div>
+
+            <div class="container">
+                <ul class="c_ul_products">
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_eyeshadow_1.jpeg" class="c_prod_img" alt="Huda Beauty Obsessions Palette - Gemstone Obsessions">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/huda-beauty-obsessions-palette-gemstone.html?ptype=product&productId=336995&skuId=336995&categoryId=242">
+                                Huda Beauty Obsessions Palette - Gemstone Obsessions
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_eyeshadow_2.jpeg" class="c_prod_img" alt="Revolution Pro Supreme Eyeshadow Palette">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/revolution-pro-supreme-eyeshadow-palette.html?ptype=product&productId=342679&skuId=342679&categoryId=242">
+                                Revolution Pro Supreme Eyeshadow Palette
+                            </span>
+
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_eyeshadow_3.jpeg" class="c_prod_img" alt="Nykaa Eye Spy Romance Combo">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/nykaa-eye-spy-romance-combo/p/350581?ptype=product&productId=350581&skuId=350581&categoryId=242">
+                                Nykaa Eye Spy Romance Combo
+                            </span>
+                        </div>
+                    </li>
+                    <li class="c_li_product">
+                        <div class="c_div_prod">
+                            <img src="imgs/prod_eyeshadow_4.jpeg" class="c_prod_img" alt="Makeup Revolution Redemption Palette">
+                            <span class="c_prod_name" data-href="https://www.nykaa.com/makeup-revolution-redemption-palette.html?ptype=product&productId=24714&skuId=24714&categoryId=242">
+                                Makeup Revolution Redemption Palette
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="footer">
+    <span class="footer_cr">
+        Copyright@Nammi
+    </span>
+</div>
+
+<script type="text/javascript" src="js/jquery3.3.1.min.js"></script>
+<script type="text/javascript" src="js/font_awesome_5.0.13.js"></script>
+<script type="text/javascript" src="js/slideshow.js"></script>
+</body>
+</html>
