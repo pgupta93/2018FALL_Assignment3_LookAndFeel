@@ -1,0 +1,316 @@
+body{
+    background-color: #ffffff;
+    color: #000000;
+    height: 100%;
+    max-width: 100%;
+    margin: 0;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+span{
+}
+
+.container{
+    width: 100%;
+}
+
+.holder{
+    width: 100%;
+}
+
+.header, .footer{
+    width: 100%;
+}
+
+/* Helpers */
+.text_center{
+    text-align: center;
+}
+
+.text_left{
+    text-align: left;
+}
+
+.text_right{
+    text-align: right;
+}
+
+/* Helper */
+
+/* Navigation -- Start */
+.navigation{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.nav_ul{
+    margin: 0;
+    padding: 0.5em 1em;
+    -moz-padding-start: 0;
+    -webkit-padding-start: 0;
+    display: inline-flex;
+}
+
+
+.nav_li, .nav_li_home{
+    list-style-type: none;
+    font-size: 1.2em;
+}
+
+.nav_li{
+    margin-left: 1em;
+}
+
+.nav_li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav_li a:hover{
+    color: grey;
+}
+
+.nav_li_home{
+    margin-left: 1em;
+}
+
+.nav_active{
+    font-weight: bold;
+}
+
+a.home{
+    color: white;
+}
+
+/* Navigation -- End */
+
+
+/* Heading -- Start */
+.site_header{
+    width: 100%;
+}
+
+.site_header .heading, .site_header .sub_heading{
+    display: block;
+}
+
+.site_header .heading{
+    font-size: 2em;
+    color: black;
+}
+
+.site_header .sub_heading{
+    font-size: 0.75em;
+    color: grey;
+    font-style: oblique;
+    margin-top: 0.25em;
+}
+
+/* Heading -- End */
+
+
+/* Body -- Start */
+.body_content{
+    max-width: 100%;
+    margin: 0 2em;
+}
+
+/* Home page */
+.body_content .home_text{
+    width: 100%;
+}
+
+.home_text .question{
+    display: block;
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+
+.home_text .answer{
+    display: block;
+    font-size: 0.9em;
+    color: grey;
+    padding-top:0.25em
+}
+
+
+/* Category Page */
+.body_content .category_contents{
+    width: 100%;
+}
+
+.category_container{
+    width: 100%;
+    margin-top: 1em;
+}
+
+
+.c_heading{
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #000000;
+    font-size: 1.5em;
+    font-style: oblique;
+    border-bottom: 1px solid wheat;
+}
+
+.c_ul_ques, .c_ul_products{
+    margin: 0;
+    -moz-padding-start: 0;
+    -webkit-padding-start: 0;
+    -webkit-column-break-inside: avoid; /* Chrome, Safari */
+    page-break-inside: avoid;           /* Theoretically FF 20+ */
+    break-inside: avoid-column;
+}
+
+.c_ul_ques{
+    columns: 2;
+}
+
+.c_li_ques, .c_li_product{
+    list-style: none;
+    display: table;
+    -webkit-column-break-inside: avoid; /* Chrome, Safari */
+    page-break-inside: avoid;           /* Theoretically FF 20+ */
+    break-inside: avoid-column;
+}
+
+.c_question, .c_answer{
+    display: block;
+}
+
+.c_div_question{
+    padding-top: 0.5em;
+}
+
+.c_question{
+    font-weight: bold;
+}
+
+.c_answer{
+    text-align: justify;
+    margin-top: 0.25em;
+    color: #808080;
+}
+
+.c_ul_products{
+    columns: 4;
+    margin-top: 1em;
+}
+
+.c_div_prod{
+    width: 100%;
+    display: block;
+    padding-top: 0.5em;
+}
+.c_div_prod .c_prod_img{
+    width: 100%;
+    height: auto;
+}
+
+.c_div_prod .c_prod_name{
+    display: block;
+    text-align: center;
+
+}
+
+
+/* Media query */
+@media (max-width: 768px) {
+    .c_ul_ques{
+        columns: 1;
+    }
+    .c_ul_products{
+        columns: 2;
+    }
+}
+
+@media(max-width: 590px){
+    .c_ul_products{
+        columns: 1;
+    }
+}
+
+/* Body -- End */
+
+
+/* Slider -- Start */
+.home_slider{
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+    margin: 1em 0;
+    display: block;
+    position: relative;
+}
+
+.my_slide{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+.anim_fade{
+    animation: fading 10s infinite;
+}
+
+.slider_image{
+    width: auto;
+    height: 400px;
+    max-width: 100%;
+}
+
+.slider_caption{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #80808099;
+    color: wheat;
+    padding: 0.5em;
+    display: none;
+}
+
+.slide_btn_next, .slide_btn_prev{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    background-color: #00000099;
+    color: white;
+    padding: 0.5em;
+    transform: translate(0%, -50%);
+    cursor: pointer;
+    opacity: 0.5%;
+}
+
+.slide_btn_next{
+    right: 0;
+}
+
+.slide_btn_prev{
+    left: 0;
+}
+
+.slide_btn_next:hover, .slide_btn_prev:hover{
+    background-color: #80808099;
+    color: black;
+}
+
+/* Slider -- End */
+
+/* Footer -- Start */
+.footer_cr{
+    display: block;
+    text-align: center;
+    color: #808080;
+    font-style: oblique;
+    padding: 0.5em 0;
+    margin-top: 1em;
+}
+
+/* Footer -- End */
