@@ -1,1 +1,129 @@
-<!--Your HTML code here-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, shrink-to-fit=no">
+    <title>My Website</title>
+    <link href='https://fonts.googleapis.com/css?family=Hind+Vadodara' rel='stylesheet'>
+    <link rel="stylesheet" href="css/my_site.css"/>
+</head>
+<body>
+<div class="header">
+    <div class="navigation">
+        <ul class="nav_ul">
+            <li class="nav_li_home">
+                <a href="#" class="home">
+                    <i class="fas fa-home fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav_li">
+                <a href="face.html">Face</a>
+            </li>
+            <li class="nav_li">
+                <a href="eyes.html">Eyes</a>
+            </li>
+            <li class="nav_li">
+                <a href="lips.html">Lips</a>
+            </li>
+            <li class="nav_li">
+                <a href="nails.html">Nails</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="site_header">
+        <span class="heading text_center">
+            Makeup
+        </span>
+        <span class="sub_heading text_center">
+            Where beauty is appreciated.
+        </span>
+    </div>
+
+</div>
+
+<div class="body_content">
+    <div class="home_slider">
+        <div class="my_slide anim_fade">
+            <img src="imgs/home_slide_face.jpg" class="slider_image">
+            <span class="slider_caption">
+                Full Face Makeup
+            </span>
+        </div>
+
+        <div class="my_slide anim_fade">
+            <img src="imgs/home_slide_eyes.jpg" class="slider_image">
+            <span class="slider_caption">
+                Eye Makeup
+            </span>
+        </div>
+
+        <div class="my_slide anim_fade">
+            <img src="imgs/home_slide_lips.jpg" class="slider_image">
+            <span class="slider_caption">
+                Lips
+            </span>
+        </div>
+
+        <div class="my_slide anim_fade">
+            <img src="imgs/home_slide_nails.jpg" class="slider_image">
+            <span class="slider_caption">
+                Nails
+            </span>
+        </div>
+
+
+        <!-- Controls -->
+        <span class="slide_btn_prev" onclick="show_previous_slide()">
+            &#10094;
+        </span>
+        <span class="slide_btn_next" onclick="show_next_slide()">
+            &#10095;
+        </span>
+    </div>
+
+    <div class="home_text">
+        <!-- Question 1 -->
+        <span class="question">
+            What is Makeup?
+        </span>
+        <span class="answer">
+            Makeup has all different types of meanings. To me personally makeup is art instead of drawing on paper you are applying that makeup on someones face and creating art on their face. Its a beautiful thing so makeup is “ART”
+        </span>
+
+
+        <!-- Question 2 -->
+        <span class="question">
+            Why is Makeup used?
+        </span>
+        <span class="answer">
+            Makeup can serve a variety of reasons or purposes. Perhaps it makes one feel pretty. I know I feel glamorous with red lipstick.
+            <br/><br/>
+            It can help those who suffer from hyper pigmentation to even out their skin tone. It can camouflage acne and other facial maladies. It can make you appear softer or harder depending on your desires. Perhaps your cheekbones are not chiseled to your liking, you can redefine them by contouring. Or maybe they are too hard, you can soften them to your preference.
+            <br/><br/>
+            A woman with makeup on portrays herself as a person who takes care of herself and her looks. Makeup is basically made to accentuate your best features and conceal ones that make you feel insecure. So when you appear prettier, you draw attention and develop your self confidence. When you are confident, you become productive, assertive and contribute more in terms of actions and opinions, yes?
+        </span>
+
+        <!-- Question 3 -->
+        <span class="question">
+            What are the different types of Makeup?
+        </span>
+        <span class="answer">
+            Cosmetics are just as diversified as the individuals who wear them. There are heavily pigmented cosmetics, for example, foundations, that are designed to give medium to full coverage, as well as sheer cover makeup for those that prefer a more natural look. The choices don't end there!
+            <br/>
+        </span>
+
+    </div>
+</div>
+
+<div class="footer">
+    <span class="footer_cr">
+        Copyright@Nammi
+    </span>
+</div>
+
+<script type="text/javascript" src="js/jquery3.3.1.min.js"></script>
+<script type="text/javascript" src="js/font_awesome_5.0.13.js"></script>
+<script type="text/javascript" src="js/slideshow.js"></script>
+</body>
+</html>
